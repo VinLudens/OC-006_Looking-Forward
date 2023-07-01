@@ -14,7 +14,7 @@ right = \relative c'' {
     \new Voice \relative c''' { \voiceTwo 
       s1 |
       s1 |
-      r4 r b a |
+      r2 b4 a |
       r8 fis gis4 a8. gis e8 |
     }
   >> \oneVoice

@@ -20,8 +20,8 @@ dynamics = {
   s1\cresc | 
   s2 s4 s16\! s8. |
   s1\sf | s1 | s1 | 
-  s2 s4 s8 s16 s16\mp | s1 | s1 | s1 | s1 | 
-  s1\mf | s1 | s1 | s1 | 
+  s2 s4 s8 s16 s16-\tweak X-offset #-1.5 -\mp | s1 | s1 | s1 | s1 | 
+  s1-\tweak X-offset #0.0 -\mf | s1 | s1 | s1 | 
   s1\mp | s1 | 
   s1\cresc | s1 | 
   s2\cresc s2\f |
@@ -30,7 +30,7 @@ dynamics = {
   s1\sf | s1 | s1 | s1 | s1 | s1 | s1 | 
   s1_\markup { \large "rit." } |
   s4 s2.\p | s1 | s1 | s1 | s1 | 
-  s1\mp | s1 | 
+  s1-\tweak X-offset #-0.3 -\mp | s1 | 
   s1\cresc | 
   s2  s2\dim |
   s2 s2\p |

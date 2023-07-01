@@ -38,10 +38,10 @@ left = \relative c {
   <gis cis>2 gis, |
   <fis' b>2 \clef "bass" fis, |
   
-  << { \voiceOne 
-      r2 \ottava -1 cis,,2\p ~ |
+  << { \voiceTwo
+      r2 \ottava -1 \oneVoice cis,,2\p ~ |
     }
-    \new Voice \relative c { \voiceTwo 
+    \new Voice \relative c { \voiceOne
       <cis gis' b>1 |
     }
   >> \oneVoice
@@ -176,8 +176,8 @@ left = \relative c {
   \bar "||"
   
   << \relative c' { \voiceOne 
-      r8. ces8. ~ ces8 r8. des8. ~ des8  |
-      r8. aes8. ~ aes8 r8. ges8. ~ ges8  |
+      r8. ces16-\tweak minimum-length #2.7 ~ ces4 r8. des16-\tweak minimum-length #2.7 ~ des4  |
+      r8. aes16-\tweak minimum-length #2.7 ~ aes4 r8. ges16-\tweak minimum-length #2.7 ~ ges4  | \break
       r8. ces8. ees8-^ r8. des8. f8-^  |
       r8. aes,8. f'8-^ r4 ges,4  |
 
